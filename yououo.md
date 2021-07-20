@@ -9,10 +9,13 @@
 #   payloads:
 1. "data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4="
 2. href="Javascript:alert('hi');"
-# exploitablity 
+# exploitablity :
 Injecting the attribute
-# Impact 
+# Impact :
 Stealing cookies or hacking the browser
-# POCs
-http://yououo.atwebpages.com/Habibi.php
-http://yououo.atwebpages.com/Habibu.php
+
+# State :
+Fixed 
+# Solution :
+Allowing only `http/https` links
+----
